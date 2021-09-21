@@ -23,10 +23,24 @@ body {
   grid-template-areas:
   "banner banner"
   "col1 col2"
-  gap: 1rem,
+  gap: 1rem;
 }
 
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+}
+
+.logo {
+  width: 14rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.pano {
+  grid-area: banner;
+}
+
+ul {
+  grid-area: banner;
 }
