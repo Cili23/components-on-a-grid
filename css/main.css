@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Gerorgia", serif;
+  font-family: Gerorgia, serif;
   line-height: 1.5rem;
 }
 
@@ -14,12 +14,19 @@ img {
   width: 100%;
 }
 
+body {
+  margin: 0;
+  background-color: #f2f1ed;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "banner banner"
+  "col1 col2"
+  gap: 1rem,
+}
+
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
-}
-
-figure {
-  display: grid;
-  grid-template-columns: 1fr 1fr
 }
