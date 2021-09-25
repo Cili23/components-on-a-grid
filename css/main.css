@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Patua One", sans-serif;
+  font-family: "Patua One", Georgia;
   line-height: 1.5;
 }
 
@@ -21,8 +21,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "banner banner"
-  "col1 col2";
+    "banner banner"
+    "col1 col2";
   gap: 1rem;
 }
 
@@ -93,5 +93,5 @@ h2 {
 
 p {
   margin: 0;
-  font-family: "Georgia", sans-serif;
+  font-family: Georgia, sans-serif;
 }
