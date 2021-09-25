@@ -22,8 +22,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "banner banner"
-    "col1 col2";
+  "banner banner"
+  "col1 col2";
   gap: 1rem;
 }
 
@@ -50,6 +50,7 @@ header {
 }
 
 ul {
+  margin: 1rem 0;
   list-style: none;
   grid-area: banner;
   font-family: "Patua One", sans-serif;
@@ -72,8 +73,9 @@ a {
 }
 
 main {
-  display: flex;
+  display: grid;
   grid-column: 1 / 3;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
 
