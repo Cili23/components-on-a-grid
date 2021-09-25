@@ -16,6 +16,7 @@ img {
 
 body {
   margin: 0;
+  padding: 1rem;
   background-color: #f2f1ed;
 
   display: grid;
